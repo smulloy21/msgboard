@@ -1,6 +1,8 @@
 # msgboard
 
-A message board to ask and answer questions. Created to get more practice working with Ember CLI.
+A message board to ask and answer questions.
+
+Created to get more practice working with Ember CLI.
 
 link on heroku: https://ember-msgboard.herokuapp.com/
 
