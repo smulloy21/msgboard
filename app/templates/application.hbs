@@ -1,3 +1,23 @@
-<h2 id="title">Welcome to Ember</h2>
-
-{{outlet}}
+<div class="container-fluid">
+  <nav class="navbar">
+    <div class="container-fluid">
+      <div class="navbar-brand">msgboard</div>
+      <ul class="nav navbar-nav">
+        <li>{{#link-to 'index'}}Home{{/link-to}}</li>
+        <li>{{#link-to 'about'}}About{{/link-to}}</li>
+        <li>{{#link-to 'contact'}}Contact{{/link-to}}</li>
+      </ul>
+      <div class="nav navbar-nav navbar-right">
+        <ul class="nav navbar-nav">
+          <li>{{#link-to 'ask'}}Ask{{/link-to}}</li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="container">
+    {{outlet}}
+  </div>
+</div>
+<div class="footer text-center">
+  <h4 class="shoutout"><small>created by smulloy</small></h4>
+</div>

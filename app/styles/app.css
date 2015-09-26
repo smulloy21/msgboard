@@ -1,0 +1,66 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  background: url('http://images4.alphacoders.com/121/121806.jpg') no-repeat top center fixed;
+  background-size: cover;
+  min-height:100vh;
+  margin-bottom: 60px;
+  font-family: 'Abel', sans-serif;
+}
+.container {
+  background-color: #EAECEC;
+  padding: 3em 4em 2em 4em;
+  border-radius: 8px;
+  margin-bottom: 1.5em;
+  width: 90%;
+}
+nav > .container-fluid {
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  margin: 0;
+  padding: .5em 4em;
+  background-color: #EAECEC;
+}
+.navbar-brand {
+  color: #085A80;
+  font-size: 2.5em;
+}
+.navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    background-color: #3D7896;
+    color: #ECECEA;
+}
+.footer {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  margin-top: 40px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #000;
+}
+hr {
+  border-color: #7E8F7C;
+  margin: 20px 0;
+}
+.comment {
+  border-color: #ddd;
+}
+.shoutout {
+  margin-top: 20px;
+}
+.title {
+  margin-top: 0;
+}
+h3 {
+  font-size: 2em;
+}
+h4 {
+  font-size: 1.5em;
+}
+p, li {
+  font-size: 1.15em;
+}

@@ -1,0 +1,12 @@
+{{#each questionsSorted as |question|}}
+  <div class="row">
+    <img src={{question.image}} class="img-responsive col-xs-1"/>
+    <div class="col-xs-11">
+      <h3 class="title">{{#link-to 'question' question.id}}{{question.title}}{{/link-to}} <small>by {{question.username}}</small></h3>
+      <br>
+      <p>{{question.text}}</p><br>
+    </div>
+  </div>
+  <hr>
+  <br>
+{{/each}}

@@ -1,0 +1,44 @@
+{{#if editMe}}
+  <div class="row">
+    <div class="col-xs-6">
+      <h1 class="title">{{model.title}}<br>
+         <small>asked by {{model.username}}</small></h1>
+      <br>
+      <p>{{model.text}}</p><br>
+    </div>
+    <div class="col-xs-6">
+      <form>
+        <div class="form-group">
+          <label for="title">Title</label>
+          {{input value=title id="title" class="form-control" placeholder=model.title}}
+        </div>
+
+        <div class="form-group">
+          <label for="text">Question</label>
+          {{textarea value=text id="text" class="form-control" placeholder=model.text}}
+        </div>
+
+        <button class="btn btn-danger" {{action 'delete' model}}>Delete</button>
+        <button class="btn btn-default" {{action 'hideEditMe'}} style="float: right;">Cancel</button>
+        <button {{action 'update' model}} class="btn btn-info" style="float: right;">Save</button>
+      </form>
+    </div>
+  </div>
+{{else}}
+  <div class="row">
+    <div class="col-xs-11">
+      <div class="row">
+        <img src={{model.image}} class="img-responsive col-xs-2"/>
+        <div class="col-xs-10">
+          <h1 class="title">{{model.title}}<br>
+             <small>asked by {{model.username}}</small></h1>
+          <br>
+          <h4>{{model.text}}</h4>
+        </div>
+      </div>
+    </div>
+    <div class="col-xs-1">
+      <button class="btn btn-default" {{action 'showEditMe'}} style="float: right;">Update</button>
+    </div>
+  </div>
+{{/if}}
