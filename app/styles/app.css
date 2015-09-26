@@ -6,7 +6,7 @@ body {
   background: url('http://images4.alphacoders.com/121/121806.jpg') no-repeat top center fixed;
   background-size: cover;
   min-height:100vh;
-  font-family: 'Quattrocento', serif;
+  font-family: 'Quicksand', sans-serif;
 }
 a {
   color: #3F83A6;
@@ -27,7 +27,7 @@ button {
   background-color: #B41E03;
 }
 .container {
-  background-color: #EAECEC;
+  background-color: #ECECEA;
   padding: 3em 4em 2em 4em;
   border-radius: 8px;
   margin-bottom: 8em;
@@ -38,7 +38,7 @@ nav > .container-fluid {
   border-bottom-right-radius: 5px;
   margin: 0;
   padding: .5em 4em;
-  background-color: #EAECEC;
+  background-color: #ECECEA;
 }
 .navbar-brand {
   color: #3F83A6;

@@ -5,10 +5,13 @@
 {{#each questionsSorted as |question|}}
   <div class="row">
     <img src={{question.image}} class="img-responsive col-xs-1"/>
-    <div class="col-xs-11">
-      <h3 class="title">{{#link-to 'question' question.id}}{{question.title}}{{/link-to}} <small>by {{question.username}}</small></h3>
-      <br>
-      <p>{{question.text}}</p><br>
+    <div class="col-xs-10">
+      <h3 class="title">{{#link-to 'question' question.id}}{{question.title}}{{/link-to}} <small><span>{{moment-from-now question.timestamp}}</span><br>
+        {{question.username}}</small></h3>
+      <p>{{question.text}}</p>
+    </div>
+    <div class="col-xs-1">
+      <span class="badge">{{question.comments.length}}</span>
     </div>
   </div>
   <hr>

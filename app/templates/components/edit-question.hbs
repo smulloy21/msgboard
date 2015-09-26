@@ -1,8 +1,8 @@
 {{#if editMe}}
   <div class="row">
     <div class="col-xs-6">
-      <h2 class="title">{{model.title}}<br>
-         <small>asked by {{model.username}}</small></h2>
+      <h2 class="title">{{model.title}} <small><span>{{moment-from-now model.timestamp}}</span><br>
+         asked by {{model.username}}</small></h2>
       <br>
       <p>{{model.text}}</p><br>
     </div>
@@ -30,8 +30,8 @@
       <div class="row">
         <img src={{model.image}} class="img-responsive col-xs-2"/>
         <div class="col-xs-10">
-          <h1 class="title">{{model.title}}<br>
-             <small>asked by {{model.username}}</small></h1>
+          <h1 class="title">{{model.title}} <small><span>{{moment-from-now model.timestamp}}</span><br>
+             asked by {{model.username}}</small></h1>
           <br>
           <h4>{{model.text}}</h4>
         </div>
