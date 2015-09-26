@@ -1,5 +1,5 @@
 {{#if addComment}}
-  <h3 class="title">Comment</h3>
+  <h3 class="title">New Comment</h3>
   <form>
     <div class="form-group">
       <label for="username">Username</label>
@@ -11,10 +11,10 @@
       {{textarea value=text id="text" class="form-control"}}
     </div>
 
-    <button {{action 'saveComment'}} class="btn btn-default">Submit</button>
+    <button {{action 'saveComment'}} class="btn btn-info">Submit</button>
     <button {{action 'hideAddComment'}} class="btn btn-default">Cancel</button>
   </form>
 {{else}}
-  <button class="btn btn-default" {{action 'showAddComment'}}>Add Comment</button>
+  <button class="btn btn-info" {{action 'showAddComment'}}>Add Comment</button>
 {{/if}}
 <br>

@@ -1,7 +1,7 @@
 {{edit-question model=model update='update' delete='delete'}}
 <br><br>
 
-{{comment-tiles model=model.comments}}
+{{comment-tiles model=model.comments updateComment='updateComment' deleteComment='deleteComment'}}
 {{new-comment model=model saveComment='saveComment'}}
 <div class="text-center">
   {{#link-to 'index'}}<button class="btn btn-default">Back</button>{{/link-to}}
