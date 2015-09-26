@@ -72,6 +72,9 @@ hr {
 .title {
   margin-top: 0;
 }
+.badge {
+  background-color: #3F83A6;
+}
 li {
   font-size: 1.15em;
 }

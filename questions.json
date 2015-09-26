@@ -1,15 +1,15 @@
 {"questions": [{
   "title": "Conditional statements in {{#if}} block",
-  "text": "Is it true you simply cannot do a conditional statement in an if block? It has to be already boiled down to a single boolian?",
+  "text": "Is it true you simply cannot do a conditional statement in an if block? It has to be already boiled down to a single boolean?",
   "timestamp": "2015-09-25T19:04:33.295Z",
-  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/DYK_questionmark_icon.png/105px-DYK_questionmark_icon.png",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Simple_questionmark.svg/356px-Simple_questionmark.svg.png",
   "username": "smulloy21",
   "comments": {}
   }, {
   "title": "Is Ember really worth the hassle?",
   "text": "It so far seems like a pain in the neck. Sure, it automates some useful things, but overall it's very confining.",
   "timestamp": "2015-09-25T20:04:33.295Z",
-  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/DYK_questionmark_icon.png/105px-DYK_questionmark_icon.png",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Simple_questionmark.svg/356px-Simple_questionmark.svg.png",
   "username": "smulloy21",
   "comments": {}
   }]

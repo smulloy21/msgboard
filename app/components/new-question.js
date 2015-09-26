@@ -8,7 +8,7 @@ export default Ember.Component.extend({
           title: this.get('title'),
           text: this.get('text'),
           username: this.get('username'),
-          image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/DYK_questionmark_icon.png/105px-DYK_questionmark_icon.png",
+          image: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Simple_questionmark.svg/356px-Simple_questionmark.svg.png",
           timestamp: new Date(),
         };
         this.sendAction('saveQuestion', params);
